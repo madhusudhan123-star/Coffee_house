@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #EDD4D4;
+    box-sizing: border-box;
+}
+.main{
+
+}
+.nav{
+    background-image: url(./main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.search_Bar{
+    background-color: #631212;
+    width: 70%;
+    height: 20%;
+    border-radius: 10px;
+    top: 6rem;
+    left: 10rem;
+    color: white;
+    position: sticky;
+}
+.coffe{
+    height: 150px;
+    width: 140px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.coffe:hover{
+    scale: 1.1;
+     box-shadow: 0 29px 30px 0 rgba(0, 0, 0, 0.2), 0 20px 40px 0 rgba(0, 0, 0, 0.19);
+}
+.coffe_div{
+    text-align: center;
+}
+.image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.content{
+
+}
+.part_one{
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid #fd7676;
+    background-color: #D7A1A1;
+    border-radius: 4px;
+    color: #A53549;
+}
+.part_one_head, .part_two_head{
+    color: RGB(165, 42, 42);
+}
+
+.part_two{
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid #fd7676;
+    background-color: #D7A1A1;
+    border-radius: 4px;
+    color: #A53549;
+}
